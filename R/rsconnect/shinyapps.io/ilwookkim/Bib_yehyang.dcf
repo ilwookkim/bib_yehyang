@@ -1,0 +1,12 @@
+name: Bib_yehyang
+title: Bib_yehyang
+username: ilwookkim
+account: ilwookkim
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14780785
+bundleId: 10305840
+url: https://ilwookkim.shinyapps.io/Bib_yehyang/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
