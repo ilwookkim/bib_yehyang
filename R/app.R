@@ -83,7 +83,11 @@ server <- function(input, output, session) {
     chapter_content <- selected_book$verses[[verse_info$chapter]]
     
     # Select verses
-    verses <- chapter_content[verse_info$start:verse_info$end,]
+    if(!is.na(verse_info$start)){
+      verses <- chapter_content[verse_info$start:verse_info$end,]
+    } else {
+      verses <- chapter_content
+    }
     
     # Format output
     result_df <- t(data.frame(
